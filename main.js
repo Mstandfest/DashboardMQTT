@@ -1,4 +1,3 @@
-
 // EventListener, der das Script erst lädt, sobald die html vollständig geladen wurde ( via DOM-Content )
 document.addEventListener("DOMContentLoaded", function() {
     // Konfiguration des Brokers, sowie des Topics unter dem die Kommunikation stattfindet
