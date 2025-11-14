@@ -1,0 +1,12 @@
+{
+  "name": "realtime-dashboard",
+  "version": "1.0.0",
+  "description": "MQTT-driven dashboard for storing and displaying temperature data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Marc Standfest",
+  "license": "ISC"
+}

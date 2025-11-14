@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echtzeit Sensor-Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sensor-Dashboard</h1>
+        <p>Status:<span id="status">Verbinde...</span></p>
+    </header>
+    <main>
+        <div class="chart-container">
+            <h2>Temperaturverlauf</h2>
+            <canvas id="temperatureChart"></canvas>
+        </div>
+    </main>
+    <footer>
+        <div>Copyright 2025 MStandfest</div>
+    </footer>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
