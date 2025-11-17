@@ -38,7 +38,7 @@ Um dieses Projekt lokal auszuführen, benötigen Sie einen lokalen Webserver, da
 
 1.  **Repository klonen:**
     ```bash
-    git clone [https://github.com/mstandfest/realtime-dashboard-mqtt.git](https://github.com/mstandfest/realtime-dashboard-mqtt.git)
+    git clone [https://github.com/mstandfest/dashboardmqtt.git](https://github.com/mstandfest/dashboardmqtt.git)
     cd realtime-dashboard
     ```
 
