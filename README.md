@@ -5,7 +5,8 @@
 
 Ein einfaches Web-Dashboard zur Visualisierung von Echtzeit-Temperaturdaten, die über das MQTT-Protokoll empfangen werden. Dieses Projekt dient als grundlegendes Beispiel für die (I)IoT-Datenvisualisierung im Web.
 
-<img width="1438" height="815" alt="realtime-dashboard-mit-werten" src="https://github.com/user-attachments/assets/e6f1796f-cda3-4c54-865f-03cca8a629fb" />
+<img <img width="980" height="726" alt="image" src="https://github.com/user-attachments/assets/ec3d8dbc-c9d7-437d-9861-828c8accaffc" />
+ />
 
 ## Inhaltsverzeichnis
 
