@@ -1,4 +1,4 @@
-// Globale Stile und Variablen
+/* Globale Stile und Variablen */
 :root {
     --primary-bg: #f0f2f5; 
     --container-bg: #ffffff; 
@@ -10,7 +10,7 @@
     --border-radius: 12px;
 }
 
-// Basis-Setup
+/* Basis-Setup */
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
@@ -21,13 +21,12 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-    box-sizing: border-box; /* Stellt sicher, dass Padding die Gesamtgröße nicht beeinflusst */
-}
+    box-sizing: border-box; 
 
-// Header 
+/* Header */
 header {
     width: 100%;
-    max-width: 900px; /* Maximale Breite für große Bildschirme */
+    max-width: 900px; 
     text-align: center;
     margin-bottom: 30px;
 }
@@ -50,10 +49,10 @@ header p {
     padding-left: 8px;
 }
 
-// Hauptinhalt & Chart-Styling 
+/* Hauptinhalt & Chart-Styling */
 main {
     width: 100%;
-    max-width: 900px; /* Gleiche maximale Breite wie der Header */
+    max-width: 900px; 
     display: flex;
     justify-content: center;
 }
@@ -81,7 +80,7 @@ canvas {
 }
 
 
-// Für Tablets und kleinere Desktops
+/* Für Tablets und kleinere Desktops */
 @media (max-width: 768px) {
     body {
         padding: 15px;
@@ -96,7 +95,7 @@ canvas {
     }
 }
 
-// Für Mobilgeräte
+/* Für Mobilgeräte */
 @media (max-width: 480px) {
     body {
         padding: 10px;
